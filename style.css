@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Monserat";
+  font-style: normal;
+}
+
+* h5 {
+  font-size: 16px;
+}
+
+* h4 {
+  font-size: 20px;
+}
+
+* h2 {
+  font-size: 40px;
+}
+
+* h1 {
+  font-size: 58px;
+}
+
+* p {
+  font-size: 14px;
+}
+
+* button {
+  min-width: 160px;
+  background: #23a6f0;
+  border: none;
+}
+
+.header {
+  background-image: url("./backgroung.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #fafafa;
+}
+
+.main-content-buttons button {
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.main-content-buttons button:last-child {
+  border: 1px white solid;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+}
+
+.active img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.card {
+  border: none;
+}
+
+.testimonials {
+  background-color: #fafafa;
+}
+
+.content {
+  background-color: #fafafa;
+}
+
+.pricing {
+  background-color: #fafafa;
+}
+
+.list-group-item {
+  background: none;
+  border: none;
+}
+
+.border-info {
+  border-radius: 10px;
+}
+
+.center {
+  background: #252b42;
+  border: none !important;
+}
+
+.center i {
+  z-index: 2;
+}
+
+.customCircle {
+  position: absolute;
+  background: white;
+  width: 20px;
+  height: 20px;
+  left: 23px;
+  z-index: 1;
+}
+
+.contact {
+  position: relative;
+  background-color: #fafafa;
+}
+
+.customIndex {
+  z-index: 2;
+}
+
+.contactBG {
+  position: absolute;
+  width: 100%;
+  height: 807px;
+  background: #252b42;
+}
+
+.footer {
+  background: #fafafa;
+  color: #737373;
+}
+
+.footer h4,
+.footer h5,
+.footer h6 {
+  color: black;
+}
+
+.footer h6 {
+  font-size: 14px;
+}
+
+.footer a {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #737373;
+  text-decoration: none;
+}
+
+.footerIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 40px;
+}
+
+.footerIcon i {
+  color: #23a6f0;
+}
+/*# sourceMappingURL=style.css.map */
