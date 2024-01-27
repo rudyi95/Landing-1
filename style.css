@@ -149,6 +149,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   min-width: 40px;
+  gap: 10px;
 }
 
 .footerIcon i {
